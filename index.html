@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insect Identifier</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Insect Identifier</h1>
+    <input type="file" id="imageUpload" accept="image/*" onchange="loadImage(event)">
+    <img id="selectedImage" alt="Selected Image">
+    <p id="predictionResult">Prediction will appear here...</p>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="script.js"></script>
+</body>
+</html>

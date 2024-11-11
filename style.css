@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+
+#selectedImage {
+    max-width: 300px;
+    margin: 20px 0;
+}
+
+#predictionResult {
+    font-size: 1.2em;
+    font-weight: bold;
+}
